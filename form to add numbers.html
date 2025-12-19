@@ -1,0 +1,40 @@
+html>
+    <head>
+        <script Language="JavaScript">
+            function sum_a()
+            {
+                var a,b,c,d;
+                a=6
+                b=8;
+                c=a-b;
+                alert(c);
+                d=prompt("Give your name:");
+                document.getElementById('name').value=d;
+            }
+        </script>
+    </head>
+    <body>
+        <form name="sum">
+            <label>SUM OF THE NUMBER </label>
+            <input type="text" name="a_value" id="name">
+            <input type="submit" onclick="sum_a()" value="submit">
+   <!-- button, checkbox, color, date, month, email, number, password, hidden, file, image, radio, range, reset, submit, search, tel, text -> default, time, url and week-->
+    </form>
+    <script Language="JavaScript">
+        document.write("hi hello");
+        var a, b, c;
+        a=8;
+        b=10;
+        c=a*b;
+        document.write("This is the sum of a and b:"+c);
+        document.write(typeof(b));
+        var x,y,w,e;
+        x="15";
+        y=10;
+        w=x+y;
+        document.write(x+y);
+        e=Number(x)+y;
+        document.write("<br>"+e);
+    </script>
+    </body>
+</html>
