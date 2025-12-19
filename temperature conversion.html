@@ -1,0 +1,19 @@
+<html>
+    <title> DWD-1</title>
+    <body>
+        <h2>TEMPERATURE CONVERTER</h2><br><br>
+        <input type="number" name="" placeholder="Enter celsius degree" id="cd">
+        <br><br>
+        <button onclick="changeDeg()">CHANGE TO FAHRENHEIT</button>
+        <br><br>
+        <input type="text" name="" placeholder="Degree in fahrenheit" id="fd">
+        <script>
+            const changeDeg=()=>
+            {
+                const cv=document.getElementById('cd').value;
+                let newfv=(cv*9/5)+32;
+                document.getElementById('fd').value=newfv;
+            }
+        </script>
+    </body>
+</html>
