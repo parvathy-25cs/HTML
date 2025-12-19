@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title> Sample webpage</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            .navbar{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                position:sticky;
+                top:0;
+                padding:15px;
+                cursor:pointer;
+            }
+            .background{
+                background: linear-gradient(yellow,orange);
+                background-blend-mode:lighter;
+                background-size:cover;
+            }
+            .logo{
+                align-items: start;
+                margin-right: auto;
+            }
+            .text-small{
+                font-size: 20px;
+                color: orangered;
+            }
+            .text-big{
+                font-size: 32px;
+                color:rgb(17, 133, 223);
+                line-height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar background">
+            <div class="logo">
+                <img src="engiversee logo.jpg" style="height:30px;" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#code">CODE PANDITS</a></li>
+                <li><a href="#aptitude">APTITUDE ARENA</a></li>
+                <li><a href="#tech">TECH GURUS</a></li>
+            </ul>
+            <div class="rightnav">
+            <input type="textbox" name="search" id="search">
+        <button>SEARCH</button>
+    </div>
+        </nav>
+        <br><br><br>
+        <section class="firstsection">
+            <div class="box=main">
+            <div class="firsthalf">
+                <h1 class="text-big" id="code">CODE PANDITS</h1>
+                <img src="engiversee logo.jpg" height="180px">
+                <h1 class="text-small">Join our sessions to master coding questions commonly asked in top company interviews such as Infosys, TCS, and Tech Mahindra. Our group is dedicated to improving your coding language skills, ensuring you are well-prepared for your next big interview.</p>
+            </div>
+            <br><br><br><br><br><br><br>
+            <div class="secondhalf">
+                <h1 class="text-big" id="aptitude"> APTITUDE ARENA</h1>
+                <img src="engiversee logo.jpg" height="180px">
+                <p class="text-small">Join our session to master aptitude questions asked by top MNCs in their interview process.</p>
+            </div>
+            <br><br><br><br><br><Br><br>
+            <div class="thirdhalf">
+                <h1 class="text-big" id="tech">TECH GURUS</h1>
+                <img src="engiversee logo.jpg" height="180px">
+                <p class="text-small">Join our sessions to master AI and ML based concepts and applying them in real world</p>
+            </div>
+            </div>
+        </section>
+    </body>
+</html>
